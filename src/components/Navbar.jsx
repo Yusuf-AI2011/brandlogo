@@ -48,6 +48,33 @@ const Navbar = () => {
           <li className="navbar__item">Haqimizda</li>
           <li className="navbar__item">Aloqa</li>
         </ul>
+        <div className="navbar__inputs">
+          <input
+            placeholder="Siz nima qidiryapsiz?"
+            type="search"
+            className="navbar__input"
+          />
+          <button className="navbar__button">
+            <span className="navbar__icon">
+              <svg
+                width="17"
+                height="17"
+                viewBox="0 0 17 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.16616 3.93075L4.62891 1.002C4.33641 0.664505 3.80016 0.666005 3.46041 1.0065L1.37391 3.09675C0.752913 3.7185 0.575162 4.64176 0.934412 5.38201C3.08063 9.82573 6.66445 13.4146 11.1052 15.567C11.8447 15.9263 12.7672 15.7485 13.3882 15.1268L15.4942 13.017C15.8354 12.6758 15.8362 12.1365 15.4957 11.844L12.5557 9.32025C12.2482 9.05625 11.7704 9.09075 11.4622 9.39975L10.4392 10.4243C10.3868 10.4791 10.3178 10.5153 10.2429 10.5272C10.168 10.5392 10.0912 10.5262 10.0244 10.4903C8.35225 9.52733 6.96516 8.13843 6.00441 6.46501C5.96843 6.39807 5.9554 6.32118 5.96733 6.24612C5.97925 6.17107 6.01546 6.102 6.07041 6.0495L7.09041 5.02875C7.39941 4.71825 7.43316 4.23825 7.16616 3.93V3.93075Z"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            Aloqaga chiqish
+          </button>
+        </div>
       </div>
     </div>
   );
